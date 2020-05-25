@@ -1,0 +1,110 @@
+#header{
+    display: flex ;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-bottom : 2px solid #f14c43;
+}
+.header-content-1{
+    flex-basis : 33%;
+    text-align: left;
+    padding: 10px;
+}
+.header-content-2{
+    flex-basis : 33%;
+    text-align: center;
+    padding: 10px;
+}
+.header-content-3{
+
+    flex-basis : 33%;
+    text-align: right;
+    padding: 10px;
+}
+img {
+    width: 138px;
+    border-radius: 50%;
+    height: 150px;
+}
+#academic, #experience{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.academic-1{
+    flex-basis: 100%;
+}
+.academic{
+    flex-basis: 33.33%
+}
+.experience-1{
+    flex-basis: 100%;
+}
+.experience{
+    flex-basis: 50%;
+}
+#skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skills-1{
+    flex-basis: 100%;
+}
+.skills{
+    flex-grow: 1;
+    text-align: center;   
+    background-color: #f14c43;
+    border-radius: 7%;
+    margin: 5px;
+    color: whitesmoke;
+}
+
+#achievement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.achievement{
+    flex-basis: 50%;
+}
+.achievement-1{
+    flex-basis: 100%;
+}
+
+#project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project-1{
+    flex-basis: 100%;
+}
+.project{
+    flex-basis: 50%;
+}
+#interest{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.interest{
+    flex-grow: 1;
+    text-align: center;  
+    border: 1px solid #5c6c74;
+    border-radius: 7% ;
+    margin: 5px;
+    color: black;
+}
+.interest-1{
+    flex-basis: 100%;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    #skill,#academic,#experience,#achievement,#header,#project,#interest{
+        flex-direction: column;
+    }
+
+   
+  }
